@@ -1,0 +1,83 @@
+.footer{
+  width: 100%;
+  max-width: 1930px;
+  background-color: #2d2d2d;
+  margin: 0 auto;
+  overflow: hidden;
+  .b-foot{
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 60px;
+    .b-hold{
+      width: 100%;
+      margin:0 auto;
+      overflow: hidden;
+      .b-hold_1{
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+        padding-top: 60px;
+        float: left;
+        .b-city{
+          margin-bottom: 20px;
+          overflow: hidden;
+          img{
+            height: 21px;
+            float: left;
+          }
+          h1{
+            color: $white;
+            width: 100%;
+            font-size: 22px;
+            margin-left: 20px
+          }
+        }
+      }
+      .b-hold_2{
+        width: 100%;
+        max-width: 650px;
+        margin: 0 auto;
+        float: right;
+      }
+      p{
+        color: #696969;
+        line-height: 12px;
+        font-size: 18px;
+      }
+    }
+  }
+  .s-foot{
+    width: 100%;
+    max-width: 1930px;
+    background-color: #242424;
+    color: #696969;
+    margin: 0 auto;
+    .b-holdsmallfoot{
+      width: 100%;
+      max-width: 1800px;
+      overflow: hidden;
+      .b-copy{
+        width: 100%;
+        max-width: 450px;
+        float: left;
+        margin: 18px 0px 10px 20px;
+      }
+      .b-awesome{
+        width: 100%;
+        max-width: 230px;
+        float: right;
+        p{
+          color: #696969;
+          margin-top: 17px;
+          float: right;
+        }
+        i{
+          color: #696969;
+          margin: 10px 15px;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}

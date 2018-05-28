@@ -66,7 +66,7 @@ a:hover, a:active, a:focus {
 
 .header {
   width: 100%;
-  max-width: 1900px;
+  max-width: 1930px;
   overflow: hidden;
   position: relative;
   margin: 0 auto;
@@ -81,7 +81,7 @@ a:hover, a:active, a:focus {
 nav {
   position: fixed;
   width: 100%;
-  max-width: 1900px;
+  max-width: 1930px;
   top: 0;
   text-align: center;
   background-color: white;
@@ -120,6 +120,75 @@ nav {
     width: 100%;
     max-width: 150px;
     margin: -25px 0px; }
+
+.footer {
+  width: 100%;
+  max-width: 1930px;
+  background-color: #2d2d2d;
+  margin: 0 auto;
+  overflow: hidden; }
+  .footer .b-foot {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 60px; }
+    .footer .b-foot .b-hold {
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden; }
+      .footer .b-foot .b-hold .b-hold_1 {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+        padding-top: 60px;
+        float: left; }
+        .footer .b-foot .b-hold .b-hold_1 .b-city {
+          margin-bottom: 20px;
+          overflow: hidden; }
+          .footer .b-foot .b-hold .b-hold_1 .b-city img {
+            height: 21px;
+            float: left; }
+          .footer .b-foot .b-hold .b-hold_1 .b-city h1 {
+            color: white;
+            width: 100%;
+            font-size: 22px;
+            margin-left: 20px; }
+      .footer .b-foot .b-hold .b-hold_2 {
+        width: 100%;
+        max-width: 650px;
+        margin: 0 auto;
+        float: right; }
+      .footer .b-foot .b-hold p {
+        color: #696969;
+        line-height: 12px;
+        font-size: 18px; }
+  .footer .s-foot {
+    width: 100%;
+    max-width: 1930px;
+    background-color: #242424;
+    color: #696969;
+    margin: 0 auto; }
+    .footer .s-foot .b-holdsmallfoot {
+      width: 100%;
+      max-width: 1800px;
+      overflow: hidden; }
+      .footer .s-foot .b-holdsmallfoot .b-copy {
+        width: 100%;
+        max-width: 450px;
+        float: left;
+        margin: 18px 0px 10px 20px; }
+      .footer .s-foot .b-holdsmallfoot .b-awesome {
+        width: 100%;
+        max-width: 230px;
+        float: right; }
+        .footer .s-foot .b-holdsmallfoot .b-awesome p {
+          color: #696969;
+          margin-top: 17px;
+          float: right; }
+        .footer .s-foot .b-holdsmallfoot .b-awesome i {
+          color: #696969;
+          margin: 10px 15px;
+          font-size: 25px; }
 
 .container {
   width: 100%;
@@ -178,12 +247,12 @@ img.active {
     display: block;
     overflow: hidden;
     margin: 0 auto;
-    max-width: 1900px;
+    max-width: 1930px;
     width: 100%; }
   .main .wrapper-medium {
     position: relative;
     width: 100%;
-    max-width: 1900px;
+    max-width: 1930px;
     overflow: hidden; }
   .main .b-absolute {
     color: white;
@@ -235,7 +304,7 @@ img.active {
     width: 100%;
     font-size: 1.5em;
     line-height: 40px;
-    padding-bottom: 35px;
+    padding-bottom: 100px;
     margin: 0 auto; }
     .main .about-content img {
       max-width: 60px;
@@ -246,9 +315,77 @@ img.active {
     .main .about-content span {
       color: #d8c012;
       font-style: italic; }
-  .main .projects {
+  .main .b-include {
     width: 100%;
     max-width: 1900px;
+    margin: 0 auto;
+    text-align: center; }
+    .main .b-include h1 {
+      font-size: 2.7em;
+      text-shadow: 0px 1px 3px; }
+    .main .b-include .include-item {
+      width: 100%;
+      max-width: 1250px;
+      margin: 0 auto;
+      overflow: hidden; }
+      .main .b-include .include-item p {
+        font-size: 1.3em;
+        float: left;
+        padding-right: 30px; }
+        .main .b-include .include-item p span {
+          color: red; }
+  .main .services {
+    background-color: #f2f2f2;
+    width: 100%;
+    max-width: 1930px;
+    margin-bottom: 130px;
+    overflow: hidden;
+    position: relative; }
+    .main .services .services-head {
+      font-size: 2.7em;
+      width: 100%;
+      max-width: 750px;
+      text-align: center;
+      text-shadow: 0px 1px 3px;
+      margin: 0 auto;
+      padding-top: 70px;
+      padding-bottom: 50px; }
+    .main .services .services-content-big {
+      float: left;
+      width: 100%;
+      padding-bottom: 35px;
+      overflow: hidden; }
+    .main .services .services-content-text {
+      width: 50%;
+      float: left;
+      position: relative;
+      overflow: hidden; }
+    .main .services .services-content-slide {
+      width: 50%;
+      float: right;
+      position: relative;
+      overflow: hidden; }
+    .main .services .services-content {
+      background-color: white;
+      width: 100%;
+      max-width: 700px;
+      position: relative;
+      overflow: hidden;
+      margin: 10px auto;
+      border: 2px solid black; }
+      .main .services .services-content h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 20px 0; }
+    .main .services .item-animation-1 {
+      animation-duration: 0.5s; }
+    .main .services .item-animation-1:hover {
+      color: #d8c012; }
+  .main .projects {
+    width: 100%;
+    max-width: 1930px;
     margin: 0 auto;
     overflow: hidden;
     padding-bottom: 80px;
@@ -341,59 +478,12 @@ img.active {
           width: 100%;
           max-width: 80%;
           margin: 0 auto; }
-  .main .services {
-    background-color: #f2f2f2;
-    width: 100%;
-    max-width: 1900px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding-bottom: 80px;
-    position: relative; }
-    .main .services .services-head {
-      font-size: 2.7em;
-      width: 100%;
-      max-width: 750px;
-      text-align: center;
-      text-shadow: 0px 1px 3px;
-      margin: 0 auto;
-      padding-top: 70px;
-      padding-bottom: 50px; }
-    .main .services .services-content-big {
-      float: left;
-      width: 100%;
-      overflow: hidden; }
-    .main .services .services-content-text {
-      width: 50%;
-      float: left;
-      position: relative;
-      overflow: hidden; }
-    .main .services .services-content-slide {
-      width: 50%;
-      float: right;
-      position: relative;
-      overflow: hidden; }
-    .main .services .services-content {
-      background-color: white;
-      width: 100%;
-      max-width: 700px;
-      position: relative;
-      overflow: hidden;
-      margin: 10px auto;
-      border: 2px solid black;
-      border-radius: 35px; }
-      .main .services .services-content h1 {
-        text-align: center;
-        width: 100%;
-        font-size: 1.2em;
-        font-weight: bold;
-        padding: 20px 0; }
-    .main .services .item-animation-1 {
-      animation-duration: 0.5s; }
-    .main .services .item-animation-1:hover {
-      color: #d8c012; }
 
 .bounceInDown {
-  animation-delay: 0.4s; }
+  animation-delay: 1.1s; }
 
 .bounceInLeft {
-  animation-delay: 1.1s; }
+  animation-delay: 1.7s; }
+
+.bounceInRight {
+  animation-delay: 0.5s; }
