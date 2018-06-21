@@ -6,8 +6,9 @@ $('.sl').slick({
   autoplay: true,
   autoplaySpeed: 2000,
 });
+});
 	//scroll
-	var documentElem = $(document),
+/*	var documentElem = $(document),
 		nav = $('nav'),
 		lastScrollTop = 0;
 
@@ -19,3 +20,4 @@ $('.sl').slick({
 			lastScrollTop = currentScrollTop;
 		});
 });
+*/

@@ -143,7 +143,7 @@ nav {
     overflow: hidden; }
   .main .b-absolute {
     color: white;
-    text-shadow: 5px 0px 5px black;
+    text-shadow: 4px 2px 5px black;
     font-style: italic;
     letter-spacing: 5px;
     position: absolute;
@@ -174,8 +174,6 @@ nav {
     width: 100%;
     position: relative;
     overflow: hidden; }
-  .main .about {
-    background-color: #f2f2f2; }
   .main .about .about-head {
     font-size: 2.7em;
     width: 100%;
@@ -189,7 +187,7 @@ nav {
   .main .about-content {
     text-align: center;
     overflow: hidden;
-    max-width: 750px;
+    max-width: 1070px;
     width: 100%;
     font-size: 1.5em;
     line-height: 40px;
@@ -224,6 +222,7 @@ nav {
         .main .b-include .include-item p span {
           color: red; }
   .main .services {
+    background-color: #f2f2f2;
     width: 100%;
     max-width: 1930px;
     margin-bottom: 130px;
@@ -239,22 +238,40 @@ nav {
       padding-top: 70px; }
     .main .services .sl {
       width: 100%;
-      max-width: 900px;
-      margin: 30px auto; }
+      max-width: 500px;
+      margin: 0 auto; }
+    .main .services .b-sl-hold {
+      width: 100%;
+      max-width: 1070px;
+      margin: 70px auto;
+      overflow: hidden; }
+      .main .services .b-sl-hold h1 {
+        font-size: 1.5;
+        text-align: center;
+        margin-bottom: 10px;
+        font-style: italic;
+        text-shadow: 0px 1px 1px; }
+    .main .services #b-left {
+      float: left; }
+    .main .services #b-right {
+      float: right; }
     .main .services .slide-header {
       width: 100%;
-      max-width: 500px;
+      max-width: 900px;
       margin: 0px auto;
-      margin-top: 90px;
-      margin-bottom: 40px;
+      margin-top: 70px;
+      margin-bottom: 10px;
       text-align: center; }
       .main .services .slide-header h1 {
         font-size: 1.7rem;
         color: #9a9a9a;
         font-style: italic;
         text-shadow: 0px 1px 2px; }
+    .main .services .slick-prev:before {
+      display: none; }
+    .main .services .slick-next:before {
+      display: none; }
   .main .projects {
-    background-color: #f2f2f2;
     width: 100%;
     max-width: 1930px;
     margin: 0 auto;
